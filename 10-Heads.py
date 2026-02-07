@@ -92,7 +92,7 @@ def main():
                     money = money - c3
                     money = round(money, 2)
                     print(f"You now have a multiplier of {multiplier} for each consecutive flip (stacks)")
-                    # I will add the stacking to flip later
+                    # I will add the stacking to flip later (edit I made this a while ago so idr if I added it)
                     c3 = c3 * 10
                     #I know evil
                     if multiplier >= 3:
@@ -181,3 +181,4 @@ def final_flip():
         return True   # return True to continue game
 if __name__ == "__main__":  
     main()
+
